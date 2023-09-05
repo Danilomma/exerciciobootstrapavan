@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <style>
+        .container{
+            padding-top: 24px;
+        }
+        .carousel-inner img {
+        height: 600px;
+        }
+        .card {
+            margin-top: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100 " src="./imagens/bitcoin-2007769_1280.jpg" />
+                    <div class="carousel-caption">
+                        <h2>Bitcoin </h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./imagens/dollars-499481_1280.jpg" />
+                    <div class="carousel-caption">
+                        <h2>Dollar</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100 " src="./imagens/euro-1353420_1280.jpg" />
+                    <div class="carousel-caption">
+                        <h2>Euro moeda</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <header class="card-header">
+                            Queda do Dollar
+                        </header>
+                        <img src="./imagens/chart-1905224_1280.jpg" />
+                        <div class="card-body">
+                            <h4 class="card-title">Dollar</h4>
+                            <p class="card-text">
+                                O declínio do dólar americano ganhou velocidade este mês, com os investidores reduzindo suas expectativas de taxa de juros. E ascensão do Bitcoin e do Euro preucupa americanos.
+                            </p>
+                            <a href="https://www.cnnbrasil.com.br/economia/por-que-o-dolar-esta-perdendo-seu-valor-globalmente/#:~:text=O%20decl%C3%ADnio%20do%20d%C3%B3lar%20americano,aumentos%20de%20juros%20do%20Fed." class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time>05/09/2023 às 16:30:00</time>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <header class="card-header">
+                            Ascensão do Bitcoin
+                        </header>
+                        <img src="./imagens/bitcoin-2007769_1280.jpg" />
+                        <div class="card-body">
+                            <h4 class="card-title">Bitcoin</h4>
+                            <p class="card-text">
+                                Na verdade, os dados históricos mostram que os picos de preços do bitcoin, sejam menores ou maiores, coincidiram com aumentos nas ICOs de tokens especulativos, disse, observando abril e novembro de 2021 e março e agosto de 2022.
+                            </p>
+                            <a href="https://br.investing.com/news/cryptocurrency-news/temporada-de-altcoins-pode-sinalizar-o-fim-da-ascensao-do-bitcoin--diz-ms-1115490#:~:text=Na%20verdade%2C%20os%20dados%20hist%C3%B3ricos,mar%C3%A7o%20e%20agosto%20de%202022." class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time>05/09/2023 às 16:30:00</time>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <header class="card-header">
+                            Alta do Euro
+                        </header>
+                        <img src="./imagens/euro-1353420_1280.jpg" />
+                        <div class="card-body">
+                            <h4 class="card-title">Euro</h4>
+                            <p class="card-text">
+                                A inflação na zona do euro está se revelando tão persistente quanto a americana. Na Europa, os aumentos dos preços foram provocados pelo aumento dos custos da energia;
+                            </p>
+                            <a href="https://www.estadao.com.br/economia/economia-europa-prestes-enfrentar-problemas/#:~:text=A%20infla%C3%A7%C3%A3o%20na%20zona%20do,foram%20mais%20motivados%20pela%20demanda." class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time>05/09/2023 às 16:30:00</time>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <header class="card-header">
+                            Alta do Euro
+                        </header>
+                        <img src="./imagens/euro-1353420_1280.jpg" />
+                        <div class="card-body">
+                            <h4 class="card-title">Euro</h4>
+                            <p class="card-text">
+                                A inflação na zona do euro está se revelando tão persistente quanto a americana. Na Europa, os aumentos dos preços foram provocados pelo aumento dos custos da energia;
+                            </p>
+                            <a href="https://www.estadao.com.br/economia/economia-europa-prestes-enfrentar-problemas/#:~:text=A%20infla%C3%A7%C3%A3o%20na%20zona%20do,foram%20mais%20motivados%20pela%20demanda." class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time>05/09/2023 às 16:30:00</time>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <header class="card-header">
+                            Alta do Euro
+                        </header>
+                        <img src="./imagens/euro-1353420_1280.jpg" />
+                        <div class="card-body">
+                            <h4 class="card-title">Euro</h4>
+                            <p class="card-text">
+                                A inflação na zona do euro está se revelando tão persistente quanto a americana. Na Europa, os aumentos dos preços foram provocados pelo aumento dos custos da energia;
+                            </p>
+                            <a href="https://www.estadao.com.br/economia/economia-europa-prestes-enfrentar-problemas/#:~:text=A%20infla%C3%A7%C3%A3o%20na%20zona%20do,foram%20mais%20motivados%20pela%20demanda." class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time>05/09/2023 às 16:30:00</time>
+                        </footer>
+                    </article>
+                </div>
+                </div>
+            </div>
+        </div>
+<script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
